@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   const currentYear = new Date().getFullYear(); 
 
   return (
-    <div className="h-screen bg-gradient-to-r from-red-900 via-purple-900 to-blue-900">
+    <div className="h-screen bg-gradient-to-r from-yellow-600 via-red-900 to-purple-900">
       <Head>
         <title>Tommi Alajoki</title>
       </Head>
