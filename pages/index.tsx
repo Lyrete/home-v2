@@ -13,7 +13,7 @@ import {
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear();
 
-  const logoClasses = "fill-current w-6 h-6 hover:text-yellow-500 my-2";
+  const logoClasses = "fill-current w-6 h-6 hover:text-yellow-500 my-2 mx-1";
 
   return (
     <div className="h-screen bg-gradient-to-b from-yellow-600 via-red-900 to-purple-900">
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
           <div className="divide-y flex border justify-self-center mx-auto max-w-lg bg-white" />
           <div
             id="logos"
-            className="flex flex-wrap items-center justify-center mx-auto space-x-3 pt-1"
+            className="flex flex-wrap items-center justify-center mx-auto"
           >
             <a
               target="_blank"
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="absolute bottom-1 sm:bottom-0 text-gray-400 w-full flex items-center justify-center mx-auto space-x-3">
+      <footer className="absolute bottom-0 sm:bottom-1 text-gray-400 w-full flex items-center justify-center mx-auto space-x-3">
         © {currentYear} {" | "} Tommi Alajoki
       </footer>
     </div>
