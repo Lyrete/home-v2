@@ -13,6 +13,8 @@ import {
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear();
 
+  const logoClasses = "fill-current w-6 h-6 hover:text-yellow-500 my-2";
+
   return (
     <div className="h-screen bg-gradient-to-b from-yellow-600 via-red-900 to-purple-900">
       <Head>
@@ -26,7 +28,12 @@ const Home: NextPage = () => {
             I build stuff (mostly websites).
             <br />
             Professionally for{" "}
-            <a className="text-blue-500" href="https://nordhealth.com/">
+            <a
+              className="text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://nordhealth.com/"
+            >
               Nordhealth
             </a>
             .<br />
@@ -36,62 +43,62 @@ const Home: NextPage = () => {
           <div className="divide-y flex border justify-self-center mx-auto max-w-lg bg-white" />
           <div
             id="logos"
-            className="flex flex-wrap items-center justify-center mx-auto space-x-3 space-y-2 pt-1"
+            className="flex flex-wrap items-center justify-center mx-auto space-x-3 pt-1"
           >
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://steamcommunity.com/id/lyrete"
             >
-              <FaSteam className="fill-current w-6 h-6 hover:text-yellow-500" />
+              <FaSteam className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/lyrete"
             >
-              <FaGithub className="fill-current w-6 h-6 hover:text-yellow-500" />
+              <FaGithub className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/tommi-alajoki-561233113/"
             >
-              <FaLinkedinIn className="fill-current w-6 h-6 hover:text-yellow-500" />
+              <FaLinkedinIn className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://twitter.com/lyrete"
             >
-              <FaTwitter className="fill-current w-6 h-6 hover:text-yellow-500" />
+              <FaTwitter className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://twitch.tv/lyrete"
             >
-              <FaTwitch className="fill-current w-6 h-6 hover:text-yellow-500" />
+              <FaTwitch className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://discordapp.com/users/111293089846423552/"
             >
-              <FaDiscord className="fill-current w-6 h-6 hover:text-yellow-500" />
+              <FaDiscord className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.strava.com/athletes/8419929"
             >
-              <FaStrava className="fill-current w-6 h-6 hover:text-yellow-500" />
+              <FaStrava className={logoClasses} />
             </a>
           </div>
         </div>
       </main>
 
-      <footer className="absolute bottom-2 text-gray-400 w-full flex items-center justify-center mx-auto space-x-3">
+      <footer className="absolute bottom-1 sm:bottom-0 text-gray-400 w-full flex items-center justify-center mx-auto space-x-3">
         © {currentYear} {" | "} Tommi Alajoki
       </footer>
     </div>
