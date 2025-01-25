@@ -27,7 +27,7 @@ const Home: NextPage = () => {
           <p className="leading-loose">
             I build stuff (mostly websites).
             <br />
-            Professionally for{" "}
+            For myself and/or professionally for{" "}
             <a
               className="text-blue-500"
               target="_blank"
@@ -36,7 +36,6 @@ const Home: NextPage = () => {
               CGI
             </a>
             .<br />
-            For enjoyment in my free time.
           </p>
           <p>Check out my socials below.</p>
           <div className="divide-y flex border justify-self-center mx-auto max-w-lg bg-white" />
@@ -60,12 +59,6 @@ const Home: NextPage = () => {
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/tommi-alajoki-561233113/">
               <FaLinkedinIn className={logoClasses} />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://twitter.com/lyrete">
-              <FaTwitter className={logoClasses} />
             </a>
             <a
               target="_blank"
