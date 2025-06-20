@@ -1,4 +1,4 @@
-@impot "tailwindcss"
+@import "tailwindcss";
 
 @layer base {
     html,
