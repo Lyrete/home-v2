@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import {
-  FaTwitter,
   FaTwitch,
   FaLinkedinIn,
   FaGithub,
@@ -25,57 +24,65 @@ const Home: NextPage = () => {
           <h1 className="text-5xl md:text-7xl font-bold">Tommi Alajoki</h1>
           <h2 className="text-l md:text-xl pb-5">Software Engineer</h2>
           <p className="leading-loose">
-            I build stuff (mostly websites).
+            I build stuff, mostly in the GIS space.
             <br />
-            For myself and/or professionally for{" "}
+            Currently employed by{" "}
             <a
               className="text-blue-500"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.cgi.com/en/">
-              CGI
+            >
+              ???
             </a>
             .<br />
           </p>
+          <p>I also actively orienteer and ride MTB / Gravel.</p>
           <p>Check out my socials below.</p>
           <div className="divide-y flex border justify-self-center mx-auto max-w-lg bg-white" />
           <div
             id="logos"
-            className="flex flex-wrap items-center justify-center mx-auto">
+            className="flex flex-wrap items-center justify-center mx-auto"
+          >
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://steamcommunity.com/id/lyrete">
+              href="https://steamcommunity.com/id/lyrete"
+            >
               <FaSteam className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/lyrete">
+              href="https://github.com/lyrete"
+            >
               <FaGithub className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/tommi-alajoki-561233113/">
+              href="https://www.linkedin.com/in/tommi-alajoki-561233113/"
+            >
               <FaLinkedinIn className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://twitch.tv/lyrete">
+              href="https://twitch.tv/lyrete"
+            >
               <FaTwitch className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://discordapp.com/users/111293089846423552/">
+              href="https://discordapp.com/users/111293089846423552/"
+            >
               <FaDiscord className={logoClasses} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.strava.com/athletes/8419929">
+              href="https://www.strava.com/athletes/8419929"
+            >
               <FaStrava className={logoClasses} />
             </a>
           </div>
