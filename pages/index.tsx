@@ -31,8 +31,9 @@ const Home: NextPage = () => {
               className="text-blue-500"
               target="_blank"
               rel="noopener noreferrer"
+              href="https://ubigu.fi/en/"
             >
-              ???
+              Ubigu
             </a>
             .<br />
           </p>
